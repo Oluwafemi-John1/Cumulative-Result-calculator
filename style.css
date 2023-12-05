@@ -1,15 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
 body {
     display: flex;
     padding: 30px;
     justify-content: center;
     align-items: center;
     background-color: #1c1c1c;
+    font-family: 'Nova Square', sans-serif;
 }
 
 #firstDiv {
     background: url("pexels-mikhail-nilov-8296949.jpg");
     background-size: cover;
     height: 85vh;
+}
+
+input:focus {
+    box-shadow: none !important;
 }
 
 div > h3 {
