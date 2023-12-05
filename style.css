@@ -6,6 +6,7 @@ body {
     align-items: center;
     background-color: #1c1c1c;
     font-family: 'Nova Square', sans-serif;
+    transition: 3s;
 }
 
 #firstDiv {
