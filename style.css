@@ -12,6 +12,7 @@ body {
     background: url("pexels-mikhail-nilov-8296949.jpg");
     background-size: cover;
     height: 85vh;
+    filter: brightness(.5);
 }
 
 button {
