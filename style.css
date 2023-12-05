@@ -8,5 +8,11 @@ body {
 #firstDiv {
     background: url("pexels-mikhail-nilov-8296949.jpg");
     background-size: cover;
-    height: 90vh;
+    height: 85vh;
+}
+
+@media screen and (min-width: 250px) and (max-width: 992px) {
+    #firstDiv {
+        height: 40vh;
+    }
 }
