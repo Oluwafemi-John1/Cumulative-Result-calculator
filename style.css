@@ -14,6 +14,15 @@ body {
     height: 85vh;
 }
 
+button {
+    background-color: #1c1c1c !important;
+    color: #fa3d3b !important;
+}
+
+button:hover {
+    background-color: #c6c6c6 !important;
+}
+
 input:focus {
     box-shadow: none !important;
 }
