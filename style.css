@@ -1,0 +1,12 @@
+body {
+    display: flex;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+#firstDiv {
+    background: url("pexels-mikhail-nilov-8296949.jpg");
+    background-size: cover;
+    height: 90vh;
+}
