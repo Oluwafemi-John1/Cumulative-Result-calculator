@@ -22,6 +22,8 @@ function calc() {
                 result.style.color = "orange"
             } else if (cumu >= 70 && cumu <90) {
                 result.innerHTML = "Attaboy! Wonderful result. Your score is " + cumu + "%. You have performed brilliantly well and this is surely a result of your hardwork and dedication. Please keep it muchacho" 
+            } else if (cumu >= 90 && cumu <= 100) {
+                result.innerHTML = "Excellent! Pure grandeur! You have etched your name into the folklore of our great and noble institution"
             }
 
             document.getElementById('biology').value = ""
