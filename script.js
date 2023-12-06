@@ -1,4 +1,10 @@
+function playMusic() {
+    var song = new Audio("forest.mp3")
+    song.play()
+}
+
 function calc() {
+    playMusic()
     if (studentName.value == '' && biology.value == '' && physics.value == '' && chemistry.value == '' && math.value == '' && geo.value == '' && studentID.value == '' && eng.value == '') {
         err.style.display = "block"
     } else {
