@@ -20,6 +20,8 @@ function calc() {
             } else if (cumu >= 60 && cumu <70) {
                 result.innerHTML = "Very good, very good, you have done well. " + "Your score is " + cumu + "%. You can do better next time out"
                 result.style.color = "orange"
+            } else if (cumu >= 70 && cumu <90) {
+                result.innerHTML = "Attaboy! Wonderful result. Your score is " + cumu + "%. You have performed brilliantly well and this is surely a result of your hardwork and dedication. Please keep it muchacho" 
             }
 
             document.getElementById('biology').value = ""
