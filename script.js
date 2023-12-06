@@ -16,8 +16,10 @@ function calc() {
                 result.style.color = "red"
             } else if (cumu >= 40 && cumu < 60) {
                 result.innerHTML = "Your score is " + cumu + "%. Well done, however, this is not good enough. Please try harder next year, " + studentName.value
+                result.style.color = "yellow"
             } else if (cumu >= 60 && cumu <70) {
                 result.innerHTML = "Very good, very good, you have done well. " + "Your score is " + cumu + "%. You can do better next time out"
+                result.style.color = "orange"
             }
 
             document.getElementById('biology').value = ""
