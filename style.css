@@ -21,6 +21,17 @@ button {
     color: #fa3d3b !important;
 }
 
+.showDiv {
+    color: #c6c6c6 !important;
+    text-align: justify !important;
+    margin: 20px 0px !important;
+}
+
+.showDiv:nth-child(1) {
+    text-decoration: underline #fa3d3b !important;
+    font-size: 2rem;
+}
+
 button:hover {
     background-color: #c6c6c6 !important;
 }

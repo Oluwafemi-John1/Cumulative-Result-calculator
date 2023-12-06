@@ -6,7 +6,14 @@ function calc() {
         if (confirmation == true) {
             var sum = Number(biology.value) + Number(physics.value) + Number(chemistry.value) + Number(math.value) + Number(geo.value) + Number(eng.value)
             var cumu = ((sum/600) * 100) + "%"
-            console.log(cumu);
+            document.getElementById('biology').value = ""
+            document.getElementById('studentName').value = ""
+            document.getElementById('physics').value = ""
+            document.getElementById('chemistry').value = ""
+            document.getElementById('math').value = ""
+            document.getElementById('geo').value = ""
+            document.getElementById('eng').value = ""
+            document.getElementById('studentID').value = ""
         } else {
             console.log(("check again"));
         }
